@@ -107,6 +107,9 @@ repositories {
     maven { // cwac-camera
         url 'https://repo.commonsware.com.s3.amazonaws.com'
     }
+    maven {
+      url 'https://dl.bintray.com/drummer-aidan/maven'
+    }
     jcenter()
     mavenLocal()
 }
@@ -177,7 +180,6 @@ dependencies {
 }
 
 dependencyVerification {
-/*
     verify = [
             'me.leolin:ShortcutBadger:3142d017234bfa0cdd69ccded7cc5ea63f13b97574803c8c616c9bbeaad33ad9',
             'se.emilsjolander:stickylistheaders:a08ca948aa6b220f09d82f16bbbac395f6b78897e9eeac6a9f0b0ba755928eeb',
@@ -227,7 +229,6 @@ dependencyVerification {
             'com.android.support:support-v4:1e2e4d35ac7fd30db5ce3bc177b92e4d5af86acef2ef93e9221599d733346f56',
             'com.android.support:support-annotations:7bc07519aa613b186001160403bcfd68260fa82c61cc7e83adeedc9b862b94ae',
     ]
-    */
 }
 
 android {
