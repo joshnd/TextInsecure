@@ -21,6 +21,17 @@ buildscript {
     }
 }
 
+plugins {
+ id "com.nimbledroid.profiler" version "1.0.1"
+}
+
+
+// config for NimbleDroid Gradle plugin
+nimbledroid {
+ apiKey = System.env.NIMBLE_KEY
+}
+
+
 apply plugin: 'com.android.application'
 apply plugin: 'witness'
 
