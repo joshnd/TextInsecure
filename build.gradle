@@ -28,7 +28,8 @@ plugins {
 
 // config for NimbleDroid Gradle plugin
 nimbledroid {
- apiKey = System.env.NIMBLE_KEY
+    apiKey = System.env.NIMBLE_KEY
+    variant "dev"
 }
 
 
