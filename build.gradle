@@ -39,7 +39,8 @@ nimbledroid {
     appData{
         username "xyz"
         password "123"
-    }    
+    } 
+    apiServer = "staging.nimbledroid.com"
 }
 
 
