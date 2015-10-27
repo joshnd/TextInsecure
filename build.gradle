@@ -35,13 +35,12 @@ apply plugin: 'com.nimbledroid.profiler'
 // config for NimbleDroid Gradle plugin
 nimbledroid {
     apiKey = System.env.NIMBLE_KEY
-    variant "release"
+    variant "relesdfsdfase"
     appData{
         username "xyz"
         password "123"
     } 
     server "https://staging.nimbledroid.com"
-    ndGetProfileTimeout 23
 }
 
 
