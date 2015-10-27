@@ -30,6 +30,10 @@ plugins {
 nimbledroid {
     apiKey = System.env.NIMBLE_KEY
     variant "release"
+    appData{
+        username "xyz"
+        password "123"
+    }    
 }
 
 
