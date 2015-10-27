@@ -40,7 +40,7 @@ nimbledroid {
         username "xyz"
         password "123"
     } 
-    apiServer = "staging.nimbledroid.com"
+    apiServer "staging.nimbledroid.com"
 }
 
 
