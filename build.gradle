@@ -27,6 +27,11 @@ buildscript {
 
 
 
+
+apply plugin: 'com.android.application'
+apply plugin: 'witness'
+apply plugin: 'com.nimbledroid.profiler'
+
 // config for NimbleDroid Gradle plugin
 nimbledroid {
     apiKey = System.env.NIMBLE_KEY
@@ -38,9 +43,6 @@ nimbledroid {
 }
 
 
-apply plugin: 'com.android.application'
-apply plugin: 'witness'
-apply plugin: 'com.nimbledroid.profiler'
 
 task apps << {
     def http = new HTTPBuilder('https://staging.nimbledroid.com')
