@@ -35,12 +35,12 @@ apply plugin: 'com.nimbledroid.profiler'
 // config for NimbleDroid Gradle plugin
 nimbledroid {
     apiKey = System.env.NIMBLE_KEY
-    variant "relesdfsdfase"
+    variant "release"
     appData{
         username "xyz"
         password "123"
     } 
-    server "https://staging.nimbledroid.com"
+ //   server "https://staging.nimbledroid.com"
 }
 
 
