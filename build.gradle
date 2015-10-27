@@ -40,7 +40,7 @@ nimbledroid {
         username "xyz"
         password "123"
     } 
-    server "staging.nimbledroid.com"
+    server "https://staging.nimbledroid.com"
 }
 
 
