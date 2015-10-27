@@ -41,6 +41,7 @@ nimbledroid {
         password "123"
     } 
     server "https://staging.nimbledroid.com"
+    ndGetProfileTimeout 23
 }
 
 
