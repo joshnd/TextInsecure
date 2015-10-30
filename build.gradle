@@ -26,7 +26,7 @@ buildscript {
 }
 
 plugins {
-//  id "com.nimbledroid.profiler" version "1.0.2"
+//  id "com.nimbledroid.profiler" version "1.0.3"
 }
 
 
