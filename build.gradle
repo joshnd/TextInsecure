@@ -13,21 +13,21 @@ buildscript {
         maven {
             url "https://plugins.gradle.org/m2/"
         }
-        maven {
-           url "https://raw.githubusercontent.com/Tubebaum/maven-repo/master/"
-        }   
+//        maven {
+//          url "https://raw.githubusercontent.com/Tubebaum/maven-repo/master/"
+//        }   
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.2.3'
         classpath files('libs/gradle-witness.jar')
         classpath "org._10ne.gradle:rest-gradle-plugin:0.4.0"
-        classpath 'com.nimbledroid:gradle-profiler:1+'
+//        classpath 'com.nimbledroid:gradle-profiler:1+'
     }
 }
 
-//plugins {
-//  id "com.nimbledroid.profiler" version "1.0.3"
-//}
+plugins {
+  id "com.nimbledroid.profiler" version "1.0.5"
+}
 
 
 apply plugin: 'com.android.application'
@@ -43,7 +43,7 @@ nimbledroid {
         username "xyz"
         password "123"
     } 
-   server "https://www.nimbledroid.com"
+   server "https://staging.nimbledroid.com"
 }
 
 task apps << {
