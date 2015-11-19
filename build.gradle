@@ -43,7 +43,7 @@ nimbledroid {
         username "xyz"
         password "123"
     } 
-   server "https://staging.nimbledroid.com"
+   server "https://www.nimbledroid.com"
 }
 
 task apps << {
